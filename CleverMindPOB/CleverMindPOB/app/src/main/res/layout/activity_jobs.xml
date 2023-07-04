@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="15dp"
+    tools:context=".Jobs">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/left_arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/back"
+        android:text="JOBS"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/android" />
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="ANDROID DEVELOPER"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:text="2 YEARS EXPERIENCE"
+                        android:textAlignment="center"
+                        android:textColor="#479C04"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/andAttendText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:text="ATTEND NOW!"
+                        android:textAlignment="center"
+                        android:textColor="#0024EF"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/andAttendBtn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:rotation="-90"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/apply" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ios" />
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IOS DEVELOPER"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="4 YEARS EXPERIENCE"
+                        android:textAlignment="center"
+                        android:textColor="#8C00CD"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/iosAttendText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:text="ATTEND NOW!"
+                        android:textAlignment="center"
+                        android:textColor="#0024EF"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iosAttendBtn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:rotation="-90"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/apply" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/android" />
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ANDROID DEVELOPER TRAINEE"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="KNOLEDGE OF JAVA LANGUAGE&#xA;AND ANDROID BASICS"
+                        android:textAlignment="center"
+                        android:textColor="#1803AF "
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/qaAttendText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:text="ATTEND NOW!"
+                        android:textAlignment="center"
+                        android:textColor="#0024EF"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/qaAttendBtn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:rotation="-90"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/apply" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

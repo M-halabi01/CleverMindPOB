@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="15dp"
+    tools:context=".SettingsA">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/left_arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/back"
+        android:text="SETTINGS"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:layout_below="@id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/more"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:text="CHANGE PASSOWRD"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:background="@drawable/border"
+            android:hint="OLD PASSWORD"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="#1803AF" />
+        <EditText
+            android:id="@+id/newPass"
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:background="@drawable/border"
+            android:hint="NEW PASSWORD"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="#1803AF" />
+        <EditText
+            android:id="@+id/rePass"
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:background="@drawable/border"
+            android:hint="RE-PASSWORD"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="#1803AF" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="LANGUAGE"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/en"
+                android:backgroundTint="#4E4B4B"
+                android:text="EN"
+                android:textColor="#0E03AF"
+                android:layout_width="60dp"
+                android:layout_height="50dp"/>
+            <Button
+                android:id="@+id/ar"
+                android:backgroundTint="@color/white"
+                android:text="AR"
+                android:textColor="#1803AF"
+                android:layout_marginStart="30dp"
+                android:layout_width="60dp"
+                android:layout_height="50dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="RATE US"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/star1"
+                android:src="@drawable/star"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/star2"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/star"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/star3"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/star"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/star4"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/star"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/star5"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/star"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="FEEDBACK"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/border"
+            android:inputType="text"
+            android:maxLines="3"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/send"
+            android:backgroundTint="#2196F3"
+            android:text="SEND"
+            android:textColor="@color/white"
+            android:layout_marginStart="60dp"
+            android:layout_width="80dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="15dp"
+    tools:context=".PolicyAndPrivacey">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/left_arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/back"
+        android:text="SIGN-UP"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/back"
+        android:background="@drawable/border"
+        android:backgroundTint="#D7DBDD"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Policy&#xA;Last updated: 1/1/2019&#xA;Clever Mind POB ICT&#xA;Our&#xA;www.clevermindpob.org&#xA;This page informs you&#xA;of our policies regarding the collection, use, and&#xA;disclosure of&#xA;Personal Information we receive&#xA;from users of the Site.&#xA;We use your Personal Information&#xA;only for providing and improving the Site. By&#xA;using the Site, you&#xA;
+agree to the collection and use&#xA;of information in accordance with this policy.&#xA;Information Collection
+And&#xA;Use&#xA;While using our Site, we may&#xA;ask you to provide us with certain personally&#xA;identifiable
+information&#xA;that can be used to contact or&#xA;identify you. Personally, identifiable information&#xA;may
+include but is not&#xA;limited to your name (Personal&#xA;Information)."
+            android:textAlignment="center"
+            android:textColor="#0024EF"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
